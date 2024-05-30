@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <title>Chamess Jaber</title>
+</head>
+
+<body>
+
+  <!-- navbar side -->
+  <nav>
+    <div class="container nav-container">
+
+      <a href="" class="logo">Chamess<span>Jaber</span></a>
+
+      <ul class="nav-links">
+
+        <li><a href="#Home" class="acitive">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Skills">Skills</a></li>
+        <li><a href="#Portfolio">Portfolio</a></li>
+        <li><a href="#Contact">Contact</a></li>
+
+        <li>
+          <div class="wrapper">
+            <input type="checkbox" id="mode" />
+            <label for="mode">
+              <i class="fa-solid fa-moon fa-sm" style="color: #12afce;"></i>
+              <i class="fa-regular fa-sun" style="color: #ffe229; display: none;"></i>
+
+
+            </label>
+
+          </div>
+        </li>
+
+      </ul>
+
+      <button><i class="fa fa-bars"></i></button>
+    </div>
+  </nav>
+  <!-- end navbar -->
+
+  <!-- header section -->
+  <header id="Home">
+    <div class="container header-container">
+      <div class="header-left">
+        <h1>Web Developer</h1>
+
+        <h3><span id="static-text">Hello,</span><span id="typed-text"></span><span id="cursor">|</span></h3>
+        <p>
+        
+    I'm Chamess Jaber, a junior Full-Stack Developer and Designer with a deep passion for coding and a love for building innovative
+     web applications.
+        </p>
+        <a href="Chamess.pdf" class="btn" download >Download CV</a>
+
+      </div>
+
+      <div class="header-right">
+        <div class="circle">
+          <!-- <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/chamess-jaber/"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/ChamsJaber"><i class="fab fa-github"></i></a> -->
+
+        </div>
+        <div class="hero-image">
+          <img src="images/profile.jpg" alt="">
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+  </header>
+  <!-- end header section -->
+
+  <div class="scroll-icon">
+    <i class="fas fa-chevron-down"></i>
+  </div>
+  <!-- about section -->
+
+  <section id="About">
+
+    <div class="container about-container">
+      <div class="about-left">
+        <div class="about-image">
+          <img src="images/profile.jpg" alt="">
+        </div>
+      </div>
+      <div class="about-right">
+
+        <h2>About Me</h2>
+        <h4>I'm Chamess Jaber</h4>
+        <p> As a full stack developer and designer, I possess a broad range of technical skills and knowledge that allow me to develop and maintain both the front-end and back-end of a web application. 
+          My expertise includes knowledge of various programming languages, databases, and frameworks, which enable me to create web applications that are not only functional but also scalable and robust.
+           Additionally, my design skills ensure that the user interfaces I create are intuitive, visually appealing, and provide a seamless user experience. I have a keen eye for detail and a strong understanding of design principles, 
+           which I apply to build web applications that are not only efficient but also engaging and user-friendly.
+        </p>
+
+        <a href="" class="btn">Contact Me</a>
+      </div>
+    </div>
+
+
+
+
+
+
+  </section>
+  <!-- end about section -->
+
+  <!-- skills section -->
+
+  <section id="Skills">
+    <h2>Skills</h2>
+
+    <div class="container skills-container">
+      <div class="skills-left">
+        <div class="language-grid">
+          <img src="images/XD.png" class="transition-shadow" alt="HTML">
+          <img src="images/figma.png" alt="HTML">
+          <img src="images/tailwind.png" alt="HTML">
+          <img src="images/js.png" alt="HTML">
+          <img src="images/bt.png" alt="Git">
+          <img src="images/html.png" class="transition-shadow" alt="HTML">
+          <img src="images/css.png" alt="HTML">
+          <img src="images/react.png" alt="HTML">
+          <img src="images/express.png" alt="Node">
+          <img src="images/mongo.png" alt="Node">
+
+        </div>
+
+      </div>
+      <div class="skills-right">
+        <div class="language-grid">
+          <!-- <img src="images/react.png" alt="HTML">
+          <img src="images/tailwind.png" alt="HTML"> -->
+          <!-- <img src="images/git.png" alt="Git"> -->
+          <!-- <img src="images/ts.png" alt=""> -->
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end skills section -->
+
+
+  <!-- portfolio section -->
+  <section id="Portfolio">
+    <h2>Portfolio</h2>
+    <div class="container portfolio-container">
+      <div class="project">
+        <img src="images/shoe.png" alt="">
+        <h4>Shoes Landing Page</h4>
+        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Veritatis, nostrum onsectetur tempore dolorem. Sapiente, reprehenderit.
+        </p> -->
+
+        <div class="project-action">
+          <a href="#" class="btn overview-btn" onclick="toggle();">Overview</a>
+          <a href="#" class="btn">Github</a>
+          <div class="view">
+            <img src="images/close.png" class="close" onclick="toggle();">
+          </div>
+        </div>
+      </div>
+
+      <div class="project">
+        <img src="images/space.jpg" alt="">
+        <h4>BlogSpace</h4>
+        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Veritatis, nostrum onsectetur tempore dolorem. Sapiente, reprehenderit.
+        </p> -->
+
+        <div class="project-action">
+          <a href="#" class="btn">Overview</a>
+          <a href="#" class="btn">Github</a>
+        </div>
+      </div>
+      <div class="project">
+        <img src="images/dash.png" alt="">
+        <h4>Dashboard E-commerce</h4>
+        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Veritatis, nostrum onsectetur tempore dolorem. Sapiente, reprehenderit.
+        </p> -->
+
+        <div class="project-action">
+          <a href="#" class="btn overview-btn" onclick="toggle();">Overview</a>
+          <a href="#" class="btn">Github</a>
+          <div class="view">
+            <img src="images/close.png" class="close" onclick="toggle();">
+          </div>
+        </div>
+      </div>
+      <div class="project">
+        <img src="images/rg.png" alt="">
+        <h4>Registration</h4>
+        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Veritatis, nostrum onsectetur tempore dolorem. Sapiente, reprehenderit.
+        </p> -->
+
+        <div class="project-action">
+          <a href="#" class="btn overview-btn" onclick="toggle();">Overview</a>
+          <a href="" class="btn">Github</a>
+          <div class="view">
+            <img src="images/close.png" class="close" onclick="toggle();">
+          </div>
+        </div>
+      </div>
+      <div class="project">
+        <img src="images/paper.png" alt="">
+        <h4>Journal Managment</h4>
+        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Veritatis, nostrum onsectetur tempore dolorem. Sapiente, reprehenderit.
+        </p> -->
+
+        <div class="project-action">
+          <a href="" class="btn">Overview</a>
+          <a href="" class="btn">Github</a>
+        </div>
+      </div>
+      <div class="project">
+        <img src="images/chat.png" alt="">
+        <h4>Chat App</h4>
+        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Veritatis, nostrum onsectetur tempore dolorem. Sapiente, reprehenderit.
+        </p> -->
+
+        <div class="project-action">
+          <a href="" class="btn">Overview</a>
+          <a href="" class="btn">Github</a>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+  <!-- end portfolio section -->
+
+
+  <!-- contact section -->
+
+  <section id="Contact">
+
+    <h2>Contact Me</h2>
+
+    <div class="container contact-container">
+
+
+      <a href="mailto:demo@gmail.com" class="fa-regular fa-envelope"></a>
+      <a href="" class="fab fa-whatsapp"></a>
+      <a href="https://www.instagram.com/zakaria_jsx/" class="fab fa-instagram"></a>
+
+    </div>
+
+
+  </section>
+  <!-- end contact section -->
+
+
+  <footer>
+
+    <div class="container">
+
+
+      &copy;Copyright Chamess || All Rights Reserved.
+
+
+
+    </div>
+
+  </footer>
+
+
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
