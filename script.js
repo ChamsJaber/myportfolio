@@ -40,6 +40,7 @@ menuBars.addEventListener('click',()=>{
 
 const phrases = [
     "I'm Chamess Jaber",
+    "I'm Designer",
     "I'm Full Stack Developer"
   ];
   
